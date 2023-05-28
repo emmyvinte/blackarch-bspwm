@@ -10,6 +10,11 @@ In Arch Linux, you can use pacman:
 sudo pacman -Syu bspwm sxhkd
 ```
 
+Clone:
+```bash
+git clone https://github.com/EmmyVinte/bspwm-all.git
+```
+
 Preparing:
 ```bash
 mkdir -p /home/$USER/.config/bspwm && touch /home/$USER/.config/bspwm/bspwmrc
