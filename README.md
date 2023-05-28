@@ -19,6 +19,7 @@ Preparing:
 ```bash
 mkdir -p /home/$USER/.config/{bspwm,sxhkd}
 ```
+
 ```bash
 sudo chmod +x /home/$USER/.config/bspwm/bspwmrc /home/$USER/.config/sxhkd/sxhkdrc
 ``
