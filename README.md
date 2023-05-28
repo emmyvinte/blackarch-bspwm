@@ -17,7 +17,7 @@ git clone https://github.com/EmmyVinte/bspwm-all.git
 
 Preparing:
 ```bash
-mkdir -p /home/$USER/.config/bspwm && touch /home/$USER/.config/bspwm/bspwmrc
+mkdir -p /home/$USER/.config/{bspwm,sxhkd}
 ```
 ```bash
 sudo chmod 774 /home/$USER/.config/bspwm/bspwmrc
