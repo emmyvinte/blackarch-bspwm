@@ -1,0 +1,58 @@
+#=============================
+#           ADDONS
+#=============================
+
+# rofi drun
+super + d
+	rofi -show drun -show-icons
+
+# konsole
+super + Return
+	konsole
+
+# flameshot
+alt + l
+	flameshot gui
+
+# firefox
+super + F1
+	firefox
+
+# dolphin
+super + F2
+	dolphin
+
+# kwrite
+super + F3
+	kwrite
+
+#=============================
+#        BSPWM HOTKEYS
+#=============================
+# make sxhkd reload its configuration files
+super + Escape
+	pkill -USR1 -x sxhkd
+ 
+# quit or restart bspwm
+super + shift + {q,x}
+	bspc {quit,wm -r}
+
+# create a new terminal window or swap the current one to the biggest one in the screen 
+# alt + {_,shift + }Return
+#  	{st, bspc node -s biggest.local}
+ 
+# close or kill a window
+super + q
+	bspc node -{k,c}
+ 
+# change the window state
+super + {t,s,v}
+	bspc node -t {tiled,floating,fullscreen}
+ 
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+ 
+# focus or send a window to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'

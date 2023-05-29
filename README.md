@@ -1,13 +1,13 @@
-# bspwm-all
+## 1 - Download
 
-Ubuntu you can do so using apt:
+Ubuntu, use o apt:
 ```bash
-sudo apt install bspwm sxhkd
+sudo apt install bspwm sxhkd picom polybar rofi
 ```
 
-In Arch Linux, you can use pacman:
+Arch Linux, use o pacman:
 ```bash
-sudo pacman -Syu bspwm sxhkd
+sudo pacman -Syu bspwm sxhkd picom polybar rofi
 ```
 
 Clone:
@@ -15,13 +15,12 @@ Clone:
 git clone https://github.com/EmmyVinte/bspwm-all.git
 ```
 
-Preparing:
+## 2 - Permissões:
 ```bash
 mkdir -p /home/$USER/.config/{bspwm,sxhkd}
 ```
-
 ```bash
-sudo chmod +x /home/$USER/.config/bspwm/bspwmrc /home/$USER/.config/sxhkd/sxhkdrc
+sudo chmod +x /home/$USER/.config/bspwm/bspwmrc /home/$USER/.config/sxhkd/sxhkdrc /home/$USER/.config/polybar/scripts
 ```
 
-end
+## [Próximos passos a caminho...]
