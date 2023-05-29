@@ -1,10 +1,5 @@
 ## 1 - Download
 
-Ubuntu, use o apt:
-```bash
-sudo apt install bspwm sxhkd picom polybar rofi
-```
-
 Arch Linux, use o pacman:
 ```bash
 sudo pacman -Syu bspwm sxhkd picom polybar rofi
