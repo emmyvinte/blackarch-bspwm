@@ -5,9 +5,9 @@ Arch Linux, use o pacman:
 sudo pacman -Syu bspwm sxhkd picom polybar rofi
 ```
 
-Clone:
+Clone Privado:
 ```bash
-git clone https://github.com/EmmyVinte/bspwm-all.git
+git@github.com:EmmyVinte/blackarch-bspwm.git
 ```
 
 ## 2 - Permissões:
