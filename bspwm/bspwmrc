@@ -31,7 +31,7 @@ ${HOME}/.fehbg
 #==================
 # use 1 compositor por vez
 # picom --config $HOME/.config/picom/picom.conf --vsync --experimental-backends &
-picom &
+picom --experimental-backends &
 
 
 #==================
