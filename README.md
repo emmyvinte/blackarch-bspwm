@@ -12,7 +12,7 @@ git@github.com:EmmyVinte/blackarch-bspwm.git
 
 ## 2 - Permissões:
 ```bash
-mkdir -p /home/$USER/.config/{bspwm,sxhkd}
+mkdir -p /home/$USER/.config/{bspwm,sxhkd,polybar,picom}
 ```
 ```bash
 sudo chmod +x /home/$USER/.config/bspwm/bspwmrc /home/$USER/.config/sxhkd/sxhkdrc /home/$USER/.config/polybar/scripts
