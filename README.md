@@ -2,7 +2,7 @@
 
 Arch Linux, use o pacman:
 ```bash
-sudo pacman -Syu bspwm sxhkd picom polybar rofi
+sudo pacman -Syu bspwm sxhkd picom polybar rofi dunst
 ```
 
 Clone Privado:
