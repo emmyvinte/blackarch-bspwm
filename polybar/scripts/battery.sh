@@ -15,11 +15,11 @@ else
     if [ "$battery_level" -le 15 ]; then
         icon="%{F#5FB4DE}%{F-}"
     elif [ "$battery_level" -le 25 ]; then
-        icon="%{F#5FB4DE%{F-}"
+        icon="%{F#5FB4DE}%{F-}"
     elif [ "$battery_level" -le 60 ]; then
-        icon="%{F#5FB4DE%{F-}"
+        icon="%{F#5FB4DE}%{F-}"
     elif [ "$battery_level" -le 90 ]; then
-        icon="%{F#5FB4DE%{F-}"
+        icon="%{F#5FB4DE}%{F-}"
     else
         icon="%{F#5FB4DE}%{F-}"
     fi
